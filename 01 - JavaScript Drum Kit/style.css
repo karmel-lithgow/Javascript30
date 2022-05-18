@@ -26,7 +26,8 @@ html {
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
   transition: all 0.07s ease;
-  width: 10rem;
+  width: 60%;
+  height: 50%;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.4);
@@ -51,3 +52,18 @@ kbd {
   letter-spacing: 0.1rem;
   color: #00ff7b;
 }
+
+/* border: 0.4rem solid black; */
+/* border-radius: 0.5rem;
+  margin: 1rem; */
+/* font-size: 1.5rem; */
+/* padding: 1rem 0.5rem; */
+/* padding-top: 5%; */
+/* transition: all 0.07s ease;
+  width: 50rem;
+  height: 25rem;
+  text-align: center;
+  color: white; */
+/* background: rgba(0, 0, 0, 0.4); */
+/* text-shadow: 0 0 0.5rem black;
+  background-image: url(frog.png); */
