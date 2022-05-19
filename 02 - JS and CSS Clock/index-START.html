@@ -15,7 +15,7 @@
 
     <style>
       html {
-        background: #018ded url(desert.png);
+        background: #018ded url(desert.jpeg);
         background-size: cover;
         font-family: 'helvetica neue';
         text-align: center;
@@ -34,7 +34,7 @@
       .clock {
         width: 30rem;
         height: 30rem;
-        border: 30px solid rgb(216, 123, 10);
+        border: 30px solid rgb(101, 58, 7);
         border-radius: 50%;
         margin: 50px auto;
         position: relative;
@@ -73,8 +73,9 @@
 
       function setDate() {
         const now = new Date()
-        const seconds = now.getSeconds()
+
         // the +90 is to offset the inital transform: rotate (90deg)
+        const seconds = now.getSeconds()
         const secondsDegrees = (seconds / 60) * 360 + 90
         secondHand.style.transform = `rotate(${secondsDegrees}deg)`
 
